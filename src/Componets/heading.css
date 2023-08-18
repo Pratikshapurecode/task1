@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+  
+    
+}
+
+.subContainer{
+    width: 90% ;
+    display: flex;
+    justify-content: right;
+margin: auto;
+
+}
+.part-1{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red ; */
+}
+.part-2{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    /* border: 1px solid green ; */
+    align-items: center;
+
+}
+h1 , p {
+    text-align: right;
+}
+
+.btn{
+    background-color: rgb(211, 34, 28);
+    color: aliceblue;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
